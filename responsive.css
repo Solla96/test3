@@ -4,7 +4,7 @@
     opacity: 0.8;
     color: azure;
   }
-
+  
   .heading h2 {
     font-size: 20px;
   }
@@ -16,7 +16,7 @@
     margin-bottom: 50px;
   }
   .work img{
-    height: 80%;
+    height: 33%;
   }
 }
 
@@ -53,8 +53,8 @@
   .lesson {
     width: 100%;
   }
-
+  
   .work img{
-    height: 50%;
+    height: 33%;
   }
 }
