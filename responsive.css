@@ -1,4 +1,10 @@
 @media all and (max-width: 1000px) {
+  .top-wrapper {
+    text-align: center;
+    background-image: url(./image/top2.png);
+    background-size:cover
+  }
+
   .top-wrapper  h2{
     font-size: 32px;
     opacity: 0.8;
@@ -24,6 +30,12 @@
 @media all and (max-width: 670px) {
   .header-right {
     display: none;
+  }
+  
+  .top-wrapper {
+    text-align: center;
+    background-image: url(./image/top2.png);
+    background-size:cover
   }
   
   .menu-icon {
