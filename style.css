@@ -51,6 +51,7 @@ a::after{
   transform-origin: center top;
   transition: transform .3s;
 }
+
 a:hover::after {
   transform:  scale(1, 1);
 }
@@ -135,6 +136,10 @@ header {
   margin: 20px 0px;
   padding: 100px 0px;
 }
+.top-wrapper > .container p {
+  font-size: 20px;
+  text-shadow: 1px 2px 3px black;
+}
 .container h2 {
   margin: 20px 0px;
   padding: 70px 50px;
@@ -170,6 +175,9 @@ footer {
   margin: 100px 100px;
 }
 
+footer a:hover {
+  transform: none;
+}
 .menu-icon {
   color: white;
   float: right;
